@@ -18,7 +18,7 @@ public class LojaApplication {
 		SpringApplication.run(LojaApplication.class, args);
 	}
 
-	@RequestMapping(method = RequestMethod.GET)
+	@RequestMapping(value = "hello", method = RequestMethod.GET)
 	public String hello() {
 		return frase;
 	}
