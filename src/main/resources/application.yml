@@ -1,4 +1,4 @@
 server:
-  port: ${PORT:5001}
+  port: 5002
 loja:
   frase: "Hello from Loja API"
